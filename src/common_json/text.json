@@ -1,0 +1,9 @@
+{
+  "id": "ID",
+  "realname": "REALNAME",
+  "tz": "TIMEZONE",
+  "activityTimeperiod": "Activity Time Period",
+  "activitystarttime": "Activity Start Time",
+  "activityendTime": "Activity End Time",
+  "close": "Close"
+}
