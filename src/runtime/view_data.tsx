@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../App.css";
 import {
   Table,
   Paper,
@@ -55,7 +56,7 @@ class ViewData extends Component<any, any> {
               {Data.members.map((member) => (
                 <TableRow
                   onClick={() => this.handleClick(member.id)}
-                  style={{ cursor: "" }}
+                  className="tableRow"
                 >
                   <TableCell>{member.id}</TableCell>
                   <TableCell>{member.real_name}</TableCell>
